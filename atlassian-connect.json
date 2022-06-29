@@ -1,8 +1,8 @@
 {
   "name": "EG Ultimate Connect App for Jira x3",
   "description": "Economy Growth owned ultimate Connect app. The app is used for testing purposes in staging. It aims to be universal in terms of installation locations. After app installation, it should be available in all possible locations of the Atlassian product with 3 distinct touchpoints in every location.",
-  "key": "com.eg-ultimate-connect-app-jira.myapp",
-  "baseUrl": "https://5ccd32bfcac3.ngrok.io",
+  "key": "com.eg-ultimate-connect-app-jira-x3.myapp",
+  "baseUrl": "https://brilliant-beijinho-526925.netlify.app",
   "vendor": {
       "name": "Atlassian Economy Growth",
       "url": "https://hello.atlassian.net/wiki/spaces/ECON/pages/1310672589/Economy+Growth+EG"

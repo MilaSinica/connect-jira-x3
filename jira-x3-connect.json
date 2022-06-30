@@ -243,6 +243,14 @@
           "key": "eg-ultimate-connect-issue-content-panel-1"
         },
         {
+          "target": {
+            "type": "dialogmodule",
+            "options": {
+              "key": "eg-ultimate-connect-dialog-module"
+            }
+          }
+        },
+        {
           "icon": {
             "width": 16,
             "height": 16,
@@ -556,7 +564,17 @@
           },
           "key": "eg-ultimate-connect-issue-tab-3"
         }
+      ],
+      "dialogs": [
+        {
+          "url": "/dialog.html",
+          "options": {
+            "header": {
+              "value": "EG Ultimate Connect App"
+            }
+          },
+          "key": "eg-ultimate-connect-dialog-module"
+        }
       ]
-      
   }
 }

@@ -1,0 +1,562 @@
+{
+  "name": "EG Ultimate Connect App for Jira x3",
+  "description": "Economy Growth owned ultimate Connect app. The app is used for testing purposes in staging. It aims to be universal in terms of installation locations. After app installation, it should be available in all possible locations of the Atlassian product with 3 distinct touchpoints in every location.",
+  "key": "com.eg-ultimate-connect-app-jira-x3.myapp",
+  "baseUrl": "https://brilliant-beijinho-526925.netlify.app",
+  "vendor": {
+      "name": "Atlassian Economy Growth",
+      "url": "https://hello.atlassian.net/wiki/spaces/ECON/pages/1310672589/Economy+Growth+EG"
+  },
+  "authentication": {
+      "type": "none"
+  },
+  "scopes": [
+    "read",
+    "write"
+  ],
+  "apiVersion": 1,
+  "modules": {
+      "generalPages": [
+        {
+            "url": "/helloworld.html",
+            "key": "eg-ultimate-connect-system-top-navigation-bar",
+            "location": "system.top.navigation.bar",
+            "name": {
+                "value": "EG Ultimate Connect App 1"
+            },
+            "icon": {
+              "width": 16,
+              "height": 16,
+              "url": "/dandelion.png"
+            }
+        },
+        {
+          "url": "/helloworld.html",
+          "key": "eg-ultimate-connect-system-top-navigation-bar-2",
+          "location": "system.top.navigation.bar",
+          "name": {
+              "value": "EG Ultimate Connect App 2"
+          },
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/dandelion.png"
+          }
+      },
+      {
+        "url": "/helloworld.html",
+        "key": "eg-ultimate-connect-system-top-navigation-bar-3",
+        "location": "system.top.navigation.bar",
+        "name": {
+            "value": "EG Ultimate Connect App 3"
+        },
+        "icon": {
+          "width": 16,
+          "height": 16,
+          "url": "/dandelion.png"
+        }
+      }
+      ],
+      "webSections": [
+        {
+          "key": "eg-ultimate-connect-menu-section-1",
+          "location": "admin_plugins_menu",
+          "name": {
+              "value": "EG Ultimate Connect App"
+          }
+        }
+      ],
+        "webItems": [
+          {
+            "key": "eg-ultimate-connect-section-link-1",
+            "location": "admin_plugins_menu/eg-ultimate-connect-menu-section-1",
+            "name": {
+                "value": "EG Ultimate Connect App 1"
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-section-link-2",
+            "location": "admin_plugins_menu/eg-ultimate-connect-menu-section-1",
+            "name": {
+                "value": "EG Ultimate Connect App 2"
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-section-link-3",
+            "location": "admin_plugins_menu/eg-ultimate-connect-menu-section-1",
+            "name": {
+                "value": "EG Ultimate Connect App 3"
+            },
+            "url": "/helloworld.html"
+          },
+          {
+              "key": "eg-ultimate-connect-operations-operations-1",
+              "location": "operations-operations",
+              "weight": 10,
+              "name": {
+                "value": "EG Ultimate Connect App 1"
+              },
+              "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-operations-operations-2",
+            "location": "operations-operations",
+            "weight": 10,
+            "name": {
+              "value": "EG Ultimate Connect App 2"
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-operations-operations-3",
+            "location": "operations-operations",
+            "weight": 10,
+            "name": {
+              "value": "EG Ultimate Connect App 3"
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-personal-link-1",
+            "location": "system.user.options/personal",
+            "name": {
+                "value": "EG Ultimate Connect App 1"
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-personal-link-2",
+            "location": "system.user.options/personal",
+            "name": {
+                "value": "EG Ultimate Connect App 2"
+            },
+            "url": "/helloworld.html"
+          },
+          {
+            "key": "eg-ultimate-connect-personal-link-3",
+            "location": "system.user.options/personal",
+            "name": {
+                "value": "EG Ultimate Connect App 3"
+            },
+            "url": "/helloworld.html"
+          }
+        ],
+        "jiraProjectPages": [
+          {
+            "url": "/helloworld.html",
+            "iconUrl": "/dandelion.png",
+            "weight": 100,
+            "name": {
+              "value": "EG Ultimate Connect App 1"
+            },
+            "key": "eg-ultimate-connect-project-page-1"
+          },
+          {
+            "url": "/helloworld.html",
+            "iconUrl": "/dandelion.png",
+            "weight": 100,
+            "name": {
+              "value": "EG Ultimate Connect App 2"
+            },
+            "key": "eg-ultimate-connect-project-page-2"
+          },
+          {
+            "url": "/helloworld.html",
+            "iconUrl": "/dandelion.png",
+            "weight": 100,
+            "name": {
+              "value": "EG Ultimate Connect App 3"
+            },
+            "key": "eg-ultimate-connect-project-page-3"
+          }
+        ],
+        "webPanels": [
+          {
+            "key": "eg-ultimate-connect-issue-view-left-context-1",
+            "location": "atl.jira.view.issue.left.context",
+            "name": {
+                "value": "EG Ultimate Connect App 1"
+            },
+            "url": "/helloworld.html"         
+          },
+          {
+            "key": "eg-ultimate-connect-issue-view-left-context-2",
+            "location": "atl.jira.view.issue.left.context",
+            "name": {
+                "value": "EG Ultimate Connect App 2"
+            },
+            "url": "/helloworld.html"         
+          },
+          {
+            "key": "eg-ultimate-connect-issue-view-left-context-3",
+            "location": "atl.jira.view.issue.left.context",
+            "name": {
+                "value": "EG Ultimate Connect App 3"
+            },
+            "url": "/helloworld.html"         
+          },
+          {
+            "key": "eg-ultimate-connect-issue-view-right-context-1",
+            "location": "atl.jira.view.issue.right.context",
+            "name": {
+                "value": "EG Ultimate Connect App 1"
+            },
+            "url": "/helloworld.html"          
+          },
+          {
+            "key": "eg-ultimate-connect-issue-view-right-context-2",
+            "location": "atl.jira.view.issue.right.context",
+            "name": {
+                "value": "EG Ultimate Connect App 2"
+            },
+            "url": "/helloworld.html"          
+          },
+          {
+            "key": "eg-ultimate-connect-issue-view-right-context-3",
+            "location": "atl.jira.view.issue.right.context",
+            "name": {
+                "value": "EG Ultimate Connect App 3"
+            },
+            "url": "/helloworld.html"          
+          }
+      ],
+      "jiraIssueContents": [
+        {
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/dandelion.png"
+          },
+          "target": {
+            "type": "web_panel",
+            "url": "/helloworld.html"
+          },
+          "tooltip": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "jiraNativeAppsEnabled": false,
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-issue-content-panel-1"
+        },
+        {
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/dandelion.png"
+          },
+          "target": {
+            "type": "web_panel",
+            "url": "/helloworld.html"
+          },
+          "tooltip": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "jiraNativeAppsEnabled": false,
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-issue-content-panel-2"
+        },
+        {
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/dandelion.png"
+          },
+          "target": {
+            "type": "web_panel",
+            "url": "/helloworld.html"
+          },
+          "tooltip": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "jiraNativeAppsEnabled": false,
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-issue-content-panel-3"
+        }
+      ],
+      "jiraIssueFields": [
+        {
+          "description": {
+            "value": "field with team"
+          },
+          "type": "single_select",
+          "extractions": [
+            {
+              "path": "category",
+              "type": "text",
+              "name": "categoryName"
+            }
+          ],
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-issue-content-panel-issue-field-1"
+        },
+        {
+          "description": {
+            "value": "field with team"
+          },
+          "type": "single_select",
+          "extractions": [
+            {
+              "path": "category",
+              "type": "text",
+              "name": "categoryName"
+            }
+          ],
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-issue-content-panel-issue-field-2"
+        },
+        {
+          "description": {
+            "value": "field with team"
+          },
+          "type": "single_select",
+          "extractions": [
+            {
+              "path": "category",
+              "type": "text",
+              "name": "categoryName"
+            }
+          ],
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-issue-content-panel-issue-field-3"
+        }
+      ],
+      "jiraIssueGlances": [
+        {
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/dandelion.png"
+          },
+          "content": {
+            "type": "label",
+            "label": {
+              "value": "EG Ultimate Connect App 1"
+            }
+          },
+          "target": {
+            "type": "web_panel",
+            "url": "/helloworld.html"
+          },
+          "jiraNativeAppsEnabled": false,
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-issue-glance-1"
+        },
+        {
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/dandelion.png"
+          },
+          "content": {
+            "type": "label",
+            "label": {
+              "value": "EG Ultimate Connect App 2"
+            }
+          },
+          "target": {
+            "type": "web_panel",
+            "url": "/helloworld.html"
+          },
+          "jiraNativeAppsEnabled": false,
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-issue-glance-2"
+        },
+        {
+          "icon": {
+            "width": 16,
+            "height": 16,
+            "url": "/dandelion.png"
+          },
+          "content": {
+            "type": "label",
+            "label": {
+              "value": "EG Ultimate Connect App 3"
+            }
+          },
+          "target": {
+            "type": "web_panel",
+            "url": "/helloworld.html"
+          },
+          "jiraNativeAppsEnabled": false,
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-issue-glance-3"
+        }
+      ],
+      "adminPages": [
+        {
+          "url": "/helloworld.html",
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-admin-page-1"
+        },
+        {
+          "url": "/helloworld.html",
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-admin-page-2"
+        },
+        {
+          "url": "/helloworld.html",
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-admin-page-3"
+        }
+      ],
+      "configurePage": {
+        "url": "/helloworld.html",
+        "name": {
+          "value": "EG Ultimate Connect App"
+        },
+        "key": "eg-ultimate-connect-config-page"
+      },
+      "jiraDashboardItems": [
+        {
+          "description": {
+            "value": "Dashboard item description"
+          },
+          "url": "/helloworld.html",
+          "configurable": true,
+          "thumbnailUrl": "dandelion.png",
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-dashboard-item-1"
+        },
+        {
+          "description": {
+            "value": "Dashboard item description"
+          },
+          "url": "/helloworld.html",
+          "configurable": true,
+          "thumbnailUrl": "dandelion.png",
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-dashboard-item-2"
+        },
+        {
+          "description": {
+            "value": "Dashboard item description"
+          },
+          "url": "/helloworld.html",
+          "configurable": true,
+          "thumbnailUrl": "dandelion.png",
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-dashboard-item-3"
+        }
+      ],
+      "jiraProjectAdminTabPanels": [
+        {
+          "location": "projectgroup1",
+          "url": "/helloworld.html",
+          "weight": 100,
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-admin-panel-1"
+        },
+        {
+          "location": "projectgroup1",
+          "url": "/helloworld.html",
+          "weight": 100,
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-admin-panel-2"
+        },
+        {
+          "location": "projectgroup1",
+          "url": "/helloworld.html",
+          "weight": 100,
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-admin-panel-3"
+        }
+      ],
+      "jiraProjectPermissions": [
+        {
+          "description": {
+            "value": "Custom project permission for attachments"
+          },
+          "category": "attachments",
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-project-permission-1"
+        },
+        {
+          "description": {
+            "value": "Custom project permission for attachments"
+          },
+          "category": "attachments",
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-project-permission-2"
+        },
+        {
+          "description": {
+            "value": "Custom project permission for attachments"
+          },
+          "category": "attachments",
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-project-permission-3"
+        }
+      ],
+      "jiraIssueTabPanels": [
+        {
+          "url": "/helloworld.html",
+          "weight": 100,
+          "name": {
+            "value": "EG Ultimate Connect App 1"
+          },
+          "key": "eg-ultimate-connect-issue-tab-1"
+        },
+        {
+          "url": "/helloworld.html",
+          "weight": 100,
+          "name": {
+            "value": "EG Ultimate Connect App 2"
+          },
+          "key": "eg-ultimate-connect-issue-tab-2"
+        },
+        {
+          "url": "/helloworld.html",
+          "weight": 100,
+          "name": {
+            "value": "EG Ultimate Connect App 3"
+          },
+          "key": "eg-ultimate-connect-issue-tab-3"
+        }
+      ]
+      
+  }
+}

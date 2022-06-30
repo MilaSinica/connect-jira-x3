@@ -10,3 +10,20 @@
         </section>
     </body>
 </html>
+
+<script>
+    function issue_clicked() {
+    AP.events.on('ISSUE__CLICKED', function(event){
+        AP.dialog.create({
+            key: 'sized-panel',
+            width: '500px',
+            height: '200px',
+            chrome: true,
+            header: JSON.stringify(event)
+        });
+    });
+    $(document).ready(function () {
+        issue_clicked();
+    });
+}
+</script>

@@ -1,4 +1,24 @@
 <!DOCTYPE html>
+<head>
+    <script src="https://connect-cdn.atl-paas.net/all.js"></script>
+    <script>
+        function issue_clicked() {
+            AP.events.on('ISSUE__CLICKED', function(event){
+                console.log("ISSUE__CLICKED");
+                AP.dialog.create({
+                    key: 'sized-panel',
+                    width: '500px',
+                    height: '200px',
+                    chrome: true,
+                    header: JSON.stringify(event)
+                });
+            });
+        };
+        (function() {
+            issue_clicked();
+        })();
+    </script>
+</head>
 <html lang="en">
     <head>
         <link rel="stylesheet" href="https://unpkg.com/@atlaskit/css-reset@2.0.0/dist/bundle.css" media="all">
@@ -11,20 +31,3 @@
     </body>
 </html>
 
-<script>
-    function issue_clicked() {
-        AP.events.on('ISSUE__CLICKED', function(event){
-            console.log("ISSUE__CLICKED");
-            AP.dialog.create({
-                key: 'sized-panel',
-                width: '500px',
-                height: '200px',
-                chrome: true,
-                header: JSON.stringify(event)
-            });
-        });
-    };
-    (function() {
-        issue_clicked();
-    })();
-</script>

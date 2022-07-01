@@ -17,8 +17,8 @@
         })();
 
         (() => {
-            AP.events.on('ISSUE_GLANCE_CONTENT_CLICKED', function(event){
-                alert('ISSUE_GLANCE_CONTENT_CLICKED event fired');
+            AP.events.on('ISSUE_GLANCE_OPENED', function(event){
+                alert('ISSUE_GLANCE_OPENED event fired');
                 AP.user.getCurrentUser(function(user) {
                 console.log("The Atlassian Account ID is", user.atlassianAccountId);
                 });

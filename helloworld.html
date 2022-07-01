@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <head>
     <script src="https://connect-cdn.atl-paas.net/all.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous">
-    </script>
     <script>
-        function issue_clicked() {
+        (() => {
             AP.events.on('ISSUE_QUICK_ADD_CLICKED', function(event){
-                // display a dialog when quick add button was clicked. event = { isNewToIssue: boolean }
-                // isNewToIssue is true if this is first time content panel being added to current issue.
-                // isNewToIssue is false if content panel is already on issue view, and it is selected.
                 AP.dialog.create({
                     key: "eg-ultimate-connect-dialog-module",
                     width: '500px',
@@ -18,11 +11,15 @@
                     chrome: true,
                 });
             });
-        }
-
-        $(document).ready(function () {
-            issue_clicked();
-        });
+            AP.events.on('ISSUE_GLANCE_CONTENT_CLICKED', function(event){
+                AP.dialog.create({
+                    key: "eg-ultimate-connect-dialog-module",
+                    width: '500px',
+                    height: '200px',
+                    chrome: true,
+                });
+            });
+        })();
     </script>
 </head>
 <html lang="en">

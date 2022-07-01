@@ -557,16 +557,5 @@
           "key": "eg-ultimate-connect-issue-tab-3"
         }
       ],
-      "dialogs": [
-        {
-          "url": "/dialog.html",
-          "options": {
-            "header": {
-              "value": "EG Ultimate Connect App"
-            }
-          },
-          "key": "eg-ultimate-connect-dialog-module"
-        }
-      ]
   }
 }

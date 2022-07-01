@@ -11,17 +11,17 @@
                     height: '200px',
                     chrome: true,
                 });
-                alert('ISSUE_QUICK_ADD_CLICKED event fired');
-
             });
         })();
 
         (() => {
             AP.events.on('ISSUE_GLANCE_OPENED', function(event){
-                alert('ISSUE_GLANCE_OPENED event fired');
-                AP.user.getCurrentUser(function(user) {
-                console.log("The Atlassian Account ID is", user.atlassianAccountId);
-                });
+                AP.dialog.create({
+                    key: "eg-ultimate-connect-dialog-module",
+                    width: '500px',
+                    height: '200px',
+                    chrome: true,
+                });            
             });
         })();
     </script>
